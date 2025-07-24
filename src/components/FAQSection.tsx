@@ -24,7 +24,7 @@ const FAQSection = () => {
     <section id="faq" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-financial-navy mb-4">자주 묻는 질문</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-financial-navy mb-4">신용카드현금화 자주 묻는 질문</h2>
           <p className="text-lg text-muted-foreground">신용카드현금화에 대해 궁금한 점들을 해결해드립니다.</p>
         </div>
         

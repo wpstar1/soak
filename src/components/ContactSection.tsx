@@ -8,9 +8,9 @@ const ContactSection = () => {
     <section id="contact" className="py-20 bg-gradient-hero text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">무료 상담 받기</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">신용카드현금화 무료 상담 받기</h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            전문 상담원이 24시간 대기하고 있습니다. 안전하고 합법적인 현금화 방법을 상담받으세요.
+            신용카드현금화 전문 상담원이 24시간 대기하고 있습니다. 안전하고 합법적인 카드 한도현금화 방법을 상담받으세요.
           </p>
         </div>
 
@@ -18,7 +18,7 @@ const ContactSection = () => {
           <div>
             <img 
               src={customerServiceImage} 
-              alt="전문 상담원" 
+              alt="신용카드현금화 전문 상담원 - 24시간 무료 상담 서비스" 
               className="rounded-2xl shadow-elegant w-full"
             />
           </div>

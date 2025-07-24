@@ -37,8 +37,8 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            카드깡과는 다른 <strong>100% 합법적인 현금화 방법</strong>을 안내해드립니다.<br />
-            5분 내 현금확보, 신용점수에 영향 없는 안전한 서비스
+            카드깡과는 다른 <strong>100% 합법적인 신용카드현금화 방법</strong>을 안내해드립니다.<br />
+            신용카드현금화로 5분 내 현금확보, 신용점수에 영향 없는 안전한 급전 서비스
           </p>
 
           {/* Features */}
@@ -49,7 +49,7 @@ const HeroSection = () => {
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/10 backdrop-blur-md rounded-lg p-4">
               <Shield className="w-6 h-6 text-financial-accent" />
-              <span className="font-semibold">100% 합법적 방법</span>
+              <span className="font-semibold">100% 합법적 카드현금화</span>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/10 backdrop-blur-md rounded-lg p-4">
               <Clock className="w-6 h-6 text-financial-accent" />
@@ -64,7 +64,7 @@ const HeroSection = () => {
               onClick={() => scrollToSection("about")}
               className="px-8 py-4 text-lg bg-financial-accent hover:bg-financial-accent/90 text-financial-navy font-semibold shadow-elegant transition-all duration-300 hover:shadow-xl hover:scale-105"
             >
-              현금화 방법 알아보기
+              신용카드현금화 방법 알아보기
             </Button>
             <Button 
               size="lg" 

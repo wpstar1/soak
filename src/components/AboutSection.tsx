@@ -33,7 +33,7 @@ const AboutSection = () => {
       isLegal: false
     },
     {
-      title: "합법적 현금화",
+      title: "합법적 신용카드현금화",
       items: [
         "실제 상품권 등 실물 거래",
         "정상적인 소유권 이전",
@@ -53,15 +53,15 @@ const AboutSection = () => {
             신용카드현금화란 무엇인가요?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            신용카드의 결제 기능을 활용해 현금을 확보하는 합법적인 금융 기법입니다.<br />
-            카드사가 제공하는 현금서비스와는 다른 개념으로, 신용점수에 영향을 주지 않습니다.
+            신용카드현금화는 신용카드의 결제 기능을 활용해 현금을 확보하는 합법적인 금융 기법입니다.<br />
+            카드사가 제공하는 현금서비스와는 다른 개념으로, 신용카드현금화는 신용점수에 영향을 주지 않습니다.
           </p>
         </div>
 
         {/* How it Works */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
-            <h3 className="text-2xl font-bold text-financial-navy mb-8">현금화 원리</h3>
+            <h3 className="text-2xl font-bold text-financial-navy mb-8">신용카드현금화 원리</h3>
             <div className="space-y-6">
               {steps.map((step, index) => (
                 <div key={index} className="flex items-start space-x-4">
@@ -82,7 +82,7 @@ const AboutSection = () => {
           <div className="relative">
             <img 
               src={mobileBankingImage} 
-              alt="모바일 뱅킹을 이용하는 모습" 
+              alt="신용카드현금화 모바일 뱅킹 이용 모습 - 안전한 온라인 현금화 서비스" 
               className="rounded-2xl shadow-financial w-full h-auto"
             />
             <div className="absolute inset-0 bg-gradient-primary/10 rounded-2xl"></div>

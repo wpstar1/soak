@@ -116,7 +116,7 @@ const SafetySection = () => {
           <div className="relative">
             <img 
               src={securityImage} 
-              alt="안전한 금융 거래" 
+              alt="신용카드현금화 안전한 금융 거래 - 합법적 현금화 방법 안내" 
               className="rounded-2xl shadow-financial w-full h-auto"
             />
             <div className="absolute inset-0 bg-gradient-primary/10 rounded-2xl"></div>
