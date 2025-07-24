@@ -29,7 +29,10 @@ const ContactSection = () => {
                 <CardContent className="p-6 text-center">
                   <Phone className="w-8 h-8 text-financial-accent mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">전화 상담</h3>
-                  <p className="text-sm text-white/80">즉시 연결</p>
+                  <p className="text-sm text-white/80 mb-2">즉시 연결</p>
+                  <a href="tel:010-2131-0759" className="text-financial-accent font-semibold hover:underline">
+                    010-2131-0759
+                  </a>
                 </CardContent>
               </Card>
               
@@ -37,7 +40,10 @@ const ContactSection = () => {
                 <CardContent className="p-6 text-center">
                   <MessageCircle className="w-8 h-8 text-financial-accent mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">온라인 상담</h3>
-                  <p className="text-sm text-white/80">실시간 채팅</p>
+                  <p className="text-sm text-white/80 mb-2">실시간 채팅</p>
+                  <a href="https://open.kakao.com/o/sY3KDXig" target="_blank" rel="noopener noreferrer" className="text-financial-accent font-semibold hover:underline">
+                    카카오톡 상담
+                  </a>
                 </CardContent>
               </Card>
             </div>
@@ -58,12 +64,22 @@ const ContactSection = () => {
               <p className="text-white/90">정식 등록 업체를 통한 합법적인 현금화만 안내</p>
             </div>
 
-            <Button 
-              size="lg" 
-              className="w-full bg-financial-accent hover:bg-financial-accent/90 text-financial-navy font-semibold text-lg py-4"
-            >
-              지금 무료 상담받기
-            </Button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Button 
+                size="lg" 
+                className="bg-financial-accent hover:bg-financial-accent/90 text-financial-navy font-semibold text-lg py-4"
+                onClick={() => window.open('https://open.kakao.com/o/sY3KDXig', '_blank')}
+              >
+                카카오톡 상담
+              </Button>
+              <Button 
+                size="lg" 
+                className="bg-financial-accent hover:bg-financial-accent/90 text-financial-navy font-semibold text-lg py-4"
+                onClick={() => window.open('tel:010-2131-0759')}
+              >
+                전화 상담
+              </Button>
+            </div>
           </div>
         </div>
       </div>

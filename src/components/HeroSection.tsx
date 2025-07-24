@@ -70,7 +70,7 @@ const HeroSection = () => {
               size="lg" 
               variant="outline" 
               onClick={() => scrollToSection("contact")}
-              className="px-8 py-4 text-lg border-white/30 text-white hover:bg-white/10 backdrop-blur-md transition-all duration-300"
+              className="px-8 py-4 text-lg border-2 border-financial-accent bg-white/10 text-financial-accent hover:bg-financial-accent hover:text-financial-navy backdrop-blur-md transition-all duration-300 font-semibold"
             >
               무료 상담받기
             </Button>
