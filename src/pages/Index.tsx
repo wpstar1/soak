@@ -6,6 +6,7 @@ import AdvantagesSection from "@/components/AdvantagesSection";
 import SafetySection from "@/components/SafetySection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
+import FloatingKakaoTalk from "@/components/FloatingKakaoTalk";
 
 const Index = () => {
   return (
@@ -18,6 +19,9 @@ const Index = () => {
       <SafetySection />
       <FAQSection />
       <ContactSection />
+      
+      {/* Floating KakaoTalk Banner */}
+      <FloatingKakaoTalk />
       
       <footer className="bg-financial-navy text-white py-8">
         <div className="container mx-auto px-4">
